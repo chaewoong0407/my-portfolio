@@ -1,5 +1,7 @@
+import { ClientPage } from "./components";
+
 const page = () => {
-  return <div>page</div>;
+  return <ClientPage />;
 };
 
 export default page;
