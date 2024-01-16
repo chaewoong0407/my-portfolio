@@ -1,0 +1,75 @@
+{
+  "folders": [
+    {
+      "name": "Root Directory",
+      "path": ".",
+    },
+    {
+      "name": "my-portfolio",
+      "path": "./apps/web",
+    },
+    {
+      "name": "ts-config",
+      "path": "./packages/typescript-config",
+    },
+  ],
+  "settings": {
+    "eslint.workingDirectories": [{ "mode": "auto" }],
+    "editor.formatOnPaste": true,
+    "editor.formatOnSave": true,
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "editor.codeActionsOnSave": {
+      "source.fixAll.eslint": "explicit",
+      "source.fixAll.format": "explicit",
+      "source.organizeImports": "explicit",
+    },
+    "cSpell.words": [
+      "Bootpay",
+      "datepicker",
+      "esbenp",
+      "Modoo",
+      "MODOOPAY",
+      "Nanum",
+      "preconnect",
+      "smiledragon",
+      "viewup",
+    ],
+    "files.exclude": {
+      "**/.git": true,
+      "**/.svn": true,
+      "**/.hg": true,
+      "**/CVS": true,
+      "**/.DS_Store": true,
+      "**/Thumbs.db": true,
+      "**/.next": true,
+      "**/packages/*/*": true,
+      "**/apps/*/*": true,
+      "**/out": true,
+    },
+    "search.exclude": {
+      "**/node_modules": true,
+      "**/bower_components": true,
+      "**/*.code-search": true,
+      "**/pnpm-lock.yaml": true,
+      "**/out": true,
+      "**/.pnp.*": true,
+    },
+    "material-icon-theme.folders.associations": {
+      "_components": "Components",
+      "_constants": "Constant",
+      "_hooks": "Hook",
+      "_service": "Api",
+      "_store": "Container",
+      "_types": "Typescript",
+      "_utils": "Utils",
+      "(route)": "Routes",
+    },
+  },
+  "extensions": {
+    "recommendations": [
+      "arcanis.vscode-zipfs",
+      "dbaeumer.vscode-eslint",
+      "esbenp.prettier-vscode",
+    ],
+  },
+}
