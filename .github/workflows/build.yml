@@ -3,6 +3,10 @@ name: MyPortfolio Build
 on:
   pull_request:
     branches: [main, develop]
+  push:
+    branches:
+      - main
+      - develop
 
 concurrency: ${{ github.workflow }}-${{ github.ref }}
 
