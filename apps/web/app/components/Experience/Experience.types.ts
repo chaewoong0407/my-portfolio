@@ -3,7 +3,7 @@ interface Project {
   period: string;
   responsibilities: string[];
   stack: string[];
-  link: string;
+  link?: string;
 }
 
 export interface ExperienceData {

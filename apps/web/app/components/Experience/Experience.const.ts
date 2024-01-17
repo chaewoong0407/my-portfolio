@@ -78,7 +78,6 @@ export const experienceData: ExperienceData[] = [
           "HTTP 클라이언트 요청 방식을 fetch -> axios와 react-query로 변경하는 작업",
           "Jest를 이용하여 테스트 코드 작성 경험",
         ],
-        link: "",
         stack: [
           "React Native",
           "styled-components",

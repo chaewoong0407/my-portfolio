@@ -5,7 +5,12 @@ import { IntroduceContainer } from "./Introduce.styled";
 export const Introduce = () => {
   return (
     <IntroduceContainer>
-      <Heading>Introduction</Heading>
+      <Heading
+        background={"linear-gradient(to top, skyblue 30%, transparent 30%)"}
+        width={"fit-content"}
+      >
+        Introduction
+      </Heading>
       <Flex gap={100} padding={"36px"}>
         <Box flex={1}>
           <Image

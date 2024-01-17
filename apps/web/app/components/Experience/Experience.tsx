@@ -6,7 +6,12 @@ import { ExperienceContainer } from "./Experience.styled";
 export const Experience = () => {
   return (
     <ExperienceContainer>
-      <Heading>Experience</Heading>
+      <Heading
+        background={"linear-gradient(to top, skyblue 30%, transparent 30%)"}
+        width={"fit-content"}
+      >
+        Experience
+      </Heading>
       <Flex gap={100} padding={"36px"} justify={"center"}>
         <Box width={"100%"}>
           {experienceData.map((data, index) => (
@@ -26,11 +31,13 @@ export const Experience = () => {
                       <Text fontWeight={"bold"} fontSize={20}>
                         {item.name}
                       </Text>
-                      <LinkIcon
-                        ml={2}
-                        color="red.500"
-                        onClick={() => open(item.link)}
-                      />
+                      {item.link && (
+                        <LinkIcon
+                          ml={2}
+                          color="red.500"
+                          onClick={() => open(item.link)}
+                        />
+                      )}
                       <Text fontSize={14} fontWeight={"bold"} ml={2}>
                         {item.period}
                       </Text>
