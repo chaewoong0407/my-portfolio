@@ -37,7 +37,7 @@ export const Introduce = () => {
         </Box>
         <Box flex={2}>
           <Heading size={"lg"}>매사에 긍정적인 개발자</Heading>
-          <Divider height={"10px"} />
+          <Divider height={"10px"} borderColor={"#868e96"} />
           <Box mt={"20px"}>
             <Text lineHeight={"30px"}>
               안녕하세요. 2년차 프론트엔드 개발자 안채웅입니다.
@@ -51,7 +51,7 @@ export const Introduce = () => {
             <Heading size={"lg"} mt={8}>
               Skills
             </Heading>
-            <Divider height={"10px"} />
+            <Divider height={"10px"} borderColor={"#868e96"} />
             <Flex mt={"20px"} flexWrap={"wrap"} gap={3}>
               {skills.map((data, index) => (
                 <Button colorScheme="gray" key={index}>

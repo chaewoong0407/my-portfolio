@@ -23,7 +23,7 @@ export const Experience = () => {
               <Text fontWeight={"bold"} fontSize={20} mt={2}>
                 {data.title}
               </Text>
-              <Divider width={"100%"} height={"10px"} />
+              <Divider width={"100%"} height={"10px"} borderColor={"#868e96"} />
               {data.projects.map((item, index) => (
                 <Flex mt={6}>
                   <Flex key={index} direction={"column"} flex={1.6}>

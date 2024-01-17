@@ -18,14 +18,14 @@ export const Certificate = () => {
           <Text color={"#868e96"} fontWeight={"bold"} fontSize={16}>
             2019.09
           </Text>
-          <Divider />
+          <Divider borderColor={"#868e96"} />
           <Heading as="h4" size="md">
             ISTQB CTFL
           </Heading>
           <Text color={"#868e96"} fontWeight={"bold"} fontSize={16}>
             2019.07
           </Text>
-          <Divider />
+          <Divider borderColor={"#868e96"} />
           <Heading as="h4" size="md">
             정보처리기능사
           </Heading>
