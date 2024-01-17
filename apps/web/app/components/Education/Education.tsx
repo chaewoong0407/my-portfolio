@@ -1,4 +1,4 @@
-import { Box, Flex, Heading, Text } from "@chakra-ui/react";
+import { Box, Divider, Flex, Heading, Text } from "@chakra-ui/react";
 import { EducationContainer } from "./Education.styled";
 
 export const Education = () => {
@@ -15,7 +15,8 @@ export const Education = () => {
           <Heading size="lg">광주 소프트웨어 마이스터고등학교</Heading>
           <Text fontWeight={"bold"}>2019.03 ~ 2022.01</Text>
         </Flex>
-        <Heading as="h4" size="md" pt={2} color={"#868e96"}>
+        <Divider height={"10px"} />
+        <Heading as="h4" size="md" pt={4}>
           소프트웨어 개발과 졸업
         </Heading>
       </Box>

@@ -1,6 +1,7 @@
 "use client";
 
 import { Flex } from "@chakra-ui/react";
+import { Certificate } from "../Certificate";
 import { Education } from "../Education";
 import { Experience } from "../Experience";
 import { Introduce } from "../Introduce";
@@ -11,6 +12,7 @@ export const ClientPage = () => {
       <Introduce />
       <Experience />
       <Education />
+      <Certificate />
     </Flex>
   );
 };
