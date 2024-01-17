@@ -1,8 +1,22 @@
-import { Box, Divider, Flex, Heading, Text } from "@chakra-ui/react";
+import { Box, Button, Divider, Flex, Heading, Text } from "@chakra-ui/react";
 import Image from "next/image";
 import { IntroduceContainer } from "./Introduce.styled";
 
 export const Introduce = () => {
+  const skills = [
+    "HTML",
+    "CSS",
+    "Javascript",
+    "Typescript",
+    "Next.js",
+    "React",
+    "React Native",
+    "styled-components",
+    "emotion-styled",
+    "Storybook",
+    "Docker",
+  ];
+
   return (
     <IntroduceContainer>
       <Heading
@@ -33,6 +47,17 @@ export const Introduce = () => {
               두려워하지 않으며 다양한 프론트엔드 환경에서의 작업을 고민하고
               공유합니다.
             </Text>
+            <Heading size={"lg"} mt={8}>
+              Skills
+            </Heading>
+            <Divider height={"10px"} />
+            <Flex mt={"20px"} flexWrap={"wrap"} gap={3}>
+              {skills.map((data, index) => (
+                <Button colorScheme="gray" key={index}>
+                  {data}
+                </Button>
+              ))}
+            </Flex>
           </Box>
         </Box>
       </Flex>

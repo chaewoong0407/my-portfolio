@@ -1,14 +1,16 @@
 "use client";
 
-import { Box } from "@chakra-ui/react";
+import { Flex } from "@chakra-ui/react";
+import { Education } from "../Education";
 import { Experience } from "../Experience";
 import { Introduce } from "../Introduce";
 
 export const ClientPage = () => {
   return (
-    <Box width={"100%"}>
+    <Flex direction={"column"} width={"100%"} gap={"20px"}>
       <Introduce />
       <Experience />
-    </Box>
+      <Education />
+    </Flex>
   );
 };
