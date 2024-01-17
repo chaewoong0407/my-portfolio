@@ -2,6 +2,7 @@
 
 import { Flex } from "@chakra-ui/react";
 import { Certificate } from "../Certificate";
+import { Contact } from "../Contact";
 import { Education } from "../Education";
 import { Experience } from "../Experience";
 import { Introduce } from "../Introduce";
@@ -13,6 +14,7 @@ export const ClientPage = () => {
       <Experience />
       <Education />
       <Certificate />
+      <Contact />
     </Flex>
   );
 };

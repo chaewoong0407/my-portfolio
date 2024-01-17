@@ -1,5 +1,6 @@
 import { Box, Button, Divider, Flex, Heading, Text } from "@chakra-ui/react";
 import Image from "next/image";
+import Github from "../../assets/github-mark.svg";
 import { IntroduceContainer } from "./Introduce.styled";
 
 export const Introduce = () => {
@@ -61,6 +62,14 @@ export const Introduce = () => {
           </Box>
         </Box>
       </Flex>
+      <Image
+        src={Github}
+        width={30}
+        height={30}
+        alt="깃헙"
+        style={{ position: "absolute", bottom: 0, right: 36 }}
+        onClick={() => open("https://github.com/chaewoong0407")}
+      />
     </IntroduceContainer>
   );
 };
