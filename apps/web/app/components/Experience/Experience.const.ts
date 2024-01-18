@@ -8,7 +8,7 @@ export const experienceData: ExperienceData[] = [
     projects: [
       // {
       //   name: "마케팅 24 리뉴얼 개발",
-      //   period: "2023.09 ~ 진행중",
+      //   period: "2023.09 ~ 2024.03",
       //   responsibilities: [
       //     "TurboRepo와 Next.js App router를 활용한 프로젝트 구축 참여",
       //     "Client 및 Server Component를 사용하여 프론트엔드 개발",
