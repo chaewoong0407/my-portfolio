@@ -6,23 +6,23 @@ export const experienceData: ExperienceData[] = [
     tenure: "2022.08 ~ 현재",
     title: "프론트엔드 개발자",
     projects: [
-      {
-        name: "마케팅 24 리뉴얼 개발",
-        period: "2023.09 ~ 진행중",
-        responsibilities: [
-          "TurboRepo와 Next.js App router를 활용한 프로젝트 구축 참여",
-          "Client 및 Server Component를 사용하여 프론트엔드 개발",
-          "Notion API 연동 및 스타일링 작업",
-        ],
-        stack: [
-          "next.js",
-          "styled-components",
-          "react-query",
-          "typescript",
-          "storybook",
-        ],
-        link: "https://mkt24.co.kr",
-      },
+      // {
+      //   name: "마케팅 24 리뉴얼 개발",
+      //   period: "2023.09 ~ 진행중",
+      //   responsibilities: [
+      //     "TurboRepo와 Next.js App router를 활용한 프로젝트 구축 참여",
+      //     "Client 및 Server Component를 사용하여 프론트엔드 개발",
+      //     "Notion API 연동 및 스타일링 작업",
+      //   ],
+      //   stack: [
+      //     "next.js",
+      //     "styled-components",
+      //     "react-query",
+      //     "typescript",
+      //     "storybook",
+      //   ],
+      //   link: "https://mkt24.co.kr",
+      // },
       {
         name: "체험뷰 유지보수 및 업데이트",
         period: "2023.01 ~ 현재",
