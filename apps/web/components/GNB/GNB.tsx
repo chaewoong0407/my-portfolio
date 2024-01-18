@@ -10,8 +10,8 @@ interface GNBProps {
 
 export const GNB = ({ isOpen, setIsOpen }: GNBProps) => {
   return (
-    <Overlay open={isOpen}>
-      <GNBContainer open={isOpen}>
+    <Overlay open={isOpen} onClick={() => setIsOpen(false)}>
+      <GNBContainer open={isOpen} onClick={(e) => e.stopPropagation()}>
         <CloseIcon
           onClick={() => setIsOpen(false)}
           position={"absolute"}
